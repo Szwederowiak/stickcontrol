@@ -14,6 +14,10 @@ function generate () {
         var inputString = inputString.split(' ').join("").split('');
         console.log(inputString)
         var outputString = "<p>";
+    
+        output.classList.add("clicked");
+    
+    
         for (var i = 0; i < inputString.length; i++) {
             switch (inputString[i]) {
                 case "A":

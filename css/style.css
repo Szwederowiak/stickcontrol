@@ -41,6 +41,9 @@ h1 {font-size: 3rem}
     margin-bottom: 20px;
 }
 
+.output-box .output-text {opacity: 0;}
+.output-box .output-text.clicked {opacity: 1;}
+
 .output-box .output-text {
     font-family: 'Source Code Pro';
     line-height: 2;
