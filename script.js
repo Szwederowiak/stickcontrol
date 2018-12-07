@@ -1,15 +1,11 @@
 var input = document.getElementById("input-text")
-var button = document.getElementById("generate-button")
 var output = document.getElementById("output-text")
 
 var L = "L"
 var R = "R"
-button.addEventListener("click", generate)
+input.addEventListener("input", generate)
 
 function generate () {
-    if (input.value == "") {
-        alert("Input is empty, fill the input field");
-    } else {
         var inputString = input.value.toUpperCase();
         var inputString = inputString.split(' ').join("").split('');
         console.log(inputString)
@@ -117,6 +113,4 @@ function generate () {
             }
         }
         output.innerHTML = outputString + "</p>"
-
-    }
 }
