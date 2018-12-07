@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900&subset=latin-ext');
+
+
+
+
+:root {
+    --color-first: #17252A;
+    --color-first-light: #355561;
+    --color-second: #2B7A78;
+    --color-second-light: #41b9b6;
+    --color-third: #3AAFA9;
+    --color-third-light: #6fcfca;
+    font-size: calc(0.75em + 1vmin);
+}
+* {
+    font-family: 'Josefin Sans';
+}
+body {
+    margin: 0;
+    
+    background: var(--color-second);
+}
+
+h1 {font-size: 3rem}
+
+
+.input-box, .output-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box input[type="text"], .output-box .output-text {
+    border: none;
+    background: var(--color-third);
+    font-size: 1rem;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.output-box .output-text {
+    font-family: 'Source Code Pro';
+    line-height: 2;
+    text-align: center;
+}
+
+.input-box button {
+    min-height: 40px;
+    width: 200px;
+    border: none;
+    background: var(--color-first);
+    color: #fff;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 15px;
+    border-bottom: var(--color-first-light) 5px solid;
+    transition: 0.2s;
+}
+.input-box button:hover {
+    letter-spacing: 2px;
+} 
+.input-box button:active {
+    transform: translateY(4px);
+    border-bottom: var(--color-first-light) 2px solid;
+}
+
+.input-box button:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
